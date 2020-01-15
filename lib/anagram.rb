@@ -7,9 +7,11 @@ class Anagram
   end 
   
  def match(array)
-   array.select do | word |
-     if word.split("").sort == @word.split("")
-   
+   array.select do | letters |
+     if letters.split("").sort == @word.split("").sort
+       letters
+     end 
+   end 
  end 
   
   
