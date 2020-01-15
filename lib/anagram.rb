@@ -1,9 +1,9 @@
 # Your code goes here!
 class Anagrams
-  attr_accessor :word
+  attr_accessor :anagrams
   
   def initialize
-    @word = word
+    @anagrams = anagrams
   end 
   
   def self.match
