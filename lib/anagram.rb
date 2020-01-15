@@ -8,6 +8,7 @@ class Anagram
   
  def match(array)
    array.select do | word |
+     if word 
    
  end 
   
