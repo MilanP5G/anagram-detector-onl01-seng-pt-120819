@@ -6,7 +6,7 @@ class Anagrams
     @word = word
   end 
   
-  def self.match(word)
+  def match(array)
     self.each do | word | 
       @word == word
     end 
